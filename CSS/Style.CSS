@@ -1,0 +1,452 @@
+/* Start Main Rules */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    /* height: 6000px; */
+    box-sizing: border-box;
+}
+p {
+    color: #4f4f4f;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+    }
+.clearfix {clear:both}
+
+/* End Main Rules */
+
+/* Start Header  */
+.header .slider {
+    background-image: url(/Images/back\ ground\ cover.jpg);
+    -webkit-background-size: cover; /* CSS 3 */
+    -moz-background-size: cover; /* CSS 3 */
+    -o-background-size: cover; /* CSS 3 */
+    height: 600px;
+    /* background-color: #20B76F; */
+}
+.header .slider .intro {
+    padding-top: 200px;
+    height: 600px;
+    text-align: center;
+    color: #fff;
+
+}
+.header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 60px;
+    width: 800px;
+    border-top: white solid 3px;
+    border-bottom: white solid 3px;
+    padding: 5px 0;
+    color: #fff;
+}
+.header .slider .intro button {
+    background: none;
+    color: #fff;
+    border: 1px #fff solid;
+    width: 200px;
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.header .slider .intro button:hover {
+    font-size: 25px; 
+    border-radius: 3%;
+    background-color: #FDFFFD;   
+    color: #719E3D;
+}
+.header .Nav-Bar {
+    overflow: hidden;
+    color: #fff;
+    background-color: #1A1D1E; 
+}
+.header .Nav-Bar h2 {
+    float: left; 
+    text-transform: uppercase;
+} 
+.header .Nav-Bar h2 span {color: #1EB969;} 
+
+.header .Nav-Bar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .Nav-Bar ul li {
+    float: left; 
+    padding: 10px;
+}
+.header .Nav-Bar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.header .Nav-Bar ul li.active a,
+.header .Nav-Bar ul li a:hover {
+    color: #1EB969;
+}
+
+/* End Header  */
+
+/* Start features */
+.features {
+    overflow: hidden;
+    padding: 40px 0px 50px;
+}
+.features .feat {
+    float: left;
+    width: calc(100% / 3);
+    height: 200px;
+}
+.features .feat h2 {
+    text-transform: uppercase;
+    color: #555;
+}
+.features .feat p {
+    line-height: 1.7;
+    color: #4f4f4f;
+}
+/* End features */
+
+/* Start About Me */
+.about-me {
+    background-color: #d8d8d8;
+    overflow: hidden;
+}
+.about-me img {
+    float: left;
+    width: 40%;
+    padding: 15px 0;
+}
+.about-me .info {float: left; width: 60%;}
+
+.about-me .info h2 {margin: 20px 0 20px 40px; color: #555;}
+
+.about-me .info > p {margin: 20px 0 20px 40px;}
+
+.about-me .info p:last-of-type {margin: 20px 0 0 40px;}
+
+.about-me .info p {line-height: 1.5; color: #4f4f4f;}
+
+.about-me .hobbies {
+    overflow: hidden;
+    margin: 20px 0 0 0 ;
+    padding: 0 0 0 40px;
+    color: #555;
+}
+.about-me .hobbies p {padding: 0 30px 0 0; color: #4f4f4f;}
+
+.about-me .hobbies .content {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+.about-me .info .hobbies .content .icon {float: left; width: 30%;}
+
+.about-me .info .hobbies .content .icon img {max-width: 100%;}
+
+.about-me h3 {margin: 20px;}
+
+.about-me .info .hobbies .content .text {float: left; width: 70%;}
+/* End About Me */
+
+/* Start Skills */
+.my-skills {padding: 30px 0px 40px; overflow: hidden;}
+
+.my-skills .skills,
+.my-skills .progress {
+    float: left;
+    width: 50%;
+}
+.my-skills .skills h2 {margin: 20px 0 20px 40px; color: #555;}
+
+.my-skills .skills p {
+    margin: 20px 0 20px 40px;
+    line-height: 1.5;
+    color: #4f4f4f;
+}
+
+.my-skills .skills p:last-of-type {margin: 20px 0 0 40px;}
+
+.my-skills .skills button
+{
+    background: none;
+    border: 1px solid #20B770;
+    color: #20B770;
+    margin: 40px 0 0 40px;
+    width: 120px;
+    height: 40px;
+}
+.my-skills .skills button:hover {
+    transform: scale(1.1, 1.1);
+    background-color: #20B770;
+    color: #fff;
+}
+.my-skills .progress .technique h3 {
+    color: #555;
+}
+.my-skills .progress .technique {
+    margin-left: 5%;
+}
+.my-skills .progress .technique div {
+    background-color: #cdcdcd;
+    height: 25px;
+}
+.my-skills .progress .technique div span {
+    background-color: #20B76F;
+    display: block;        
+    height: 100%;
+    line-height: 25px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+}
+/* End Skills */
+
+/* Start Resume */
+.resume {
+    text-align: center;
+    padding: 20px 0px 30px;
+    background-color: #ececec;
+    color: #4f4f4f;
+}
+.resume button{
+    background: none;
+    border: 1px solid #20B770;
+    color: #20B770;
+    width: 200px;
+    height: 40px;
+}
+.resume button:hover {
+    transform: scale(1.1, 1.1);
+    background-color: #20B770;
+    color: #fff;
+}
+.resume p {
+    color: #4f4f4f;
+}
+/* End Resume */
+
+/* Start My-Education */
+.my-education .education {
+    width: 50%;
+    margin-right:3%;
+    float: left;
+}
+.my-education .exp {
+    width: 47%;
+    float: left;
+}
+.my-education {overflow: hidden; padding: 30px 0px;}
+
+.my-education .education h2 {
+    color: #555;
+    margin: 20px 0 20px 40px;
+}
+.my-education .education p {
+    color: #4f4f4f;
+    margin: 20px 0 20px 40px;
+    line-height: 1.5;
+}
+.my-education .exp h3 {
+    margin-top: 68px;
+    margin-bottom: 7px;
+    color: #555;
+}
+.my-education .exp span {
+    display: block;
+    margin-bottom: 7px;
+}
+.my-education .exp span:first-of-type { color: #4f4f4f }
+
+.my-education .exp span:last-of-type { 
+    display: inline-block;
+    background-color: #27B76F;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.my-education .exp hr {
+    margin: 20px 0;
+    background-color: #999;
+    height: 1px;
+    border: 0;
+}
+.my-education .exp p {
+    color: #4f4f4f;
+    line-height: 1.5;
+}
+
+/* End My-Education */
+.clearfix {clear:both}
+
+/* Start Work-Experince */
+.work-exp .work {
+    width: 50%;
+    margin-right: 3%;
+    float: left;
+}
+.work-exp .web {
+    width: 47%;
+    float: left;
+    padding-bottom: 10px;
+}
+.work-exp .work h2 {
+    color: #555;
+    margin: 20px 0 20px 40px;
+}
+.work-exp .work p {
+    color: #4f4f4f;
+    margin: 20px 0 20px 40px;
+    line-height: 1.5;
+}
+.work-exp .web h3 {
+    margin-top: 68px;
+    margin-bottom: 7px;
+    color: #555;
+}
+.work-exp .web span {
+    display: block;
+    margin-bottom: 7px;
+}
+.work-exp .web span:first-of-type { color: #4f4f4f }
+
+.work-exp .web span:last-of-type { 
+    display: inline-block;
+    background-color: #27B76F;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.work-exp .web hr {
+    margin: 20px 0;
+    background-color: #999;
+    height: 1px;
+    border: 0;
+}
+.work-exp .web p {
+    color: #4f4f4f;
+    line-height: 1.5;
+}
+/* End Work-Experince */
+
+/* Start testimonials */
+.testimonials {
+    text-align: center;
+    padding: 70px 0px 50px 0px;
+    background-color: #dadada;
+}
+.testimonials q {
+    color: #666;
+    /* line-height: 1.5;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px; */
+    font: italic bold 18px/1.5 Arial, Tahoma;
+}
+.testimonials ul {
+    list-style: none;
+    padding-left: 0;
+}
+.testimonials ul li {
+    width: 7px;
+    height: 7px;
+    border: 2px solid #27B76F;
+    border-radius: 50%;
+    display: inline-block;
+    }
+.testimonials ul li.active, 
+.testimonials ul li:hover {
+    background-color: #27B76F;
+    cursor: pointer;
+}
+/* End testimonials */
+
+/* Start Portofolio */
+.portofolio {padding: 30px 0px; text-align: center}
+
+.portofolio .our-work {
+    display: grid;
+    grid-template-areas: 
+    "pic pic pic"
+    "fek fek fek"
+    "pik pik pik"; 
+}
+.portofolio h2 {color: #555;}
+
+.portofolio p {color: #4f4f4f;}
+
+.portofolio .our-work > div > div{margin: 50px 0px}
+
+.portofolio img {
+    width: 380px;
+    height: 350px;
+}
+/* End Portofolio */
+
+/* Start Contact Me */
+.contact{
+    background-color: #232F2E;
+    overflow: hidden;
+}
+.contact h2 {color: #fff;}
+
+.contact p {color: #6a6e71;line-height: 1.5;}
+
+.contact .info {
+    margin-left: 5%;
+    width: 50%;
+    float: left;
+}
+.contact .form {
+    width: 45%;
+    float: left;
+}
+.contact .form label {
+    display: block;
+    color: #fff;
+    margin: 30px 0 10px 0;
+}
+.contact .form input[type="text"] {
+    background-color: #465153;
+    width: 80%;
+    padding: 5px;
+    border: 0;
+    color: #fff;
+}
+.contact .form textarea {
+    background-color: #465153;
+    width: 80%;
+    padding: 5px;
+    border: 0;
+    height: 200px;
+    color: #fff;
+}
+.contact .info p strong {
+    color: #fff;
+}
+.contact .form button {
+    margin: 10px 0 10px ;
+    background-color: #151819;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+.contact .form button:hover {
+    background-color: white;
+    color: #232F2E;
+    cursor: pointer;
+}
+/* End Contact Me */
+
+/* Start Footer */
+.footer {
+    background-color: #191e22;
+    text-align: center;
+    color: #6a6e71;
+    padding: 10px 0 0 0;
+    overflow: hidden;
+}
+/* End Footer */
